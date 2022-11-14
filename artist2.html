@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<!-------------------------------HEAD------------------------------------------>
+
+  <head>
+    <title>Lil Earthquake</title>
+    <meta charset="UTF-8">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/artistprofiles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+
+<!----------------------------HEADER------------------------------------------->
+
+<div id="header">
+
+  <div id="header__logo">
+    <img id="header__logo--featrmelogo" src="images/logo/FeatrMeLogo.webp" alt="FeatrMe">
+  </div>
+
+    <div id="header__links">
+
+      <div class="header__links--item" id="header__home">
+        <a href="index.html#welcomeSection">
+          HOME
+        </a>
+      </div>
+
+      <div class="header__links--item" id="header__about">
+        <a href="index.html#aboutSection">
+          ABOUT
+        </a>
+      </div>
+      
+      <div class="header__links--item" id="header__talent">
+        <a href="index.html#talentSection">
+          TALENT
+        </a>
+      </div>
+
+      <div class="header__links--item" id="header__book">
+        <a href="index.html#bookSection">
+          BOOK
+        </a>
+      </div>
+
+      <div class="header__links--item" id="header__contact">
+        <a href="index.html#contactSection">
+          CONTACT
+        </a>
+      </div>
+
+    </div>
+
+</div>
+
+<!----------------------------Artist------------------------------------------->
+<div id="artistPage__image--featrmelogoDiv">
+<img id="artistPage__image--featrmelogo" src="images/logo/FeatrMeLogo.webp" alt="FeatrMe">
+</div>
+  <div id="artistPage">
+    
+
+      <div id="artistPage__photoAndBio">
+     
+        <div id="artistPage__photoAndBio--photoDiv">
+          <img id="artistPage__photoAndBio--photo" src="images/artists/LilEarthquake.jpg">
+          <h3>Past Projects</h3>
+          <audio controls src="audio/songs/MATRIX (Prod. Greg DiNero).mp3" autoplay></audio>
+          <audio controls src="audio/songs/NO PLAN B (Prod. Greg DiNero).mp3"></audio>
+        </div>
+          
+        <div id="artistPage__photoAndBio--bio">
+         
+          <p id="artistPage__photoAndBio--artistName">
+            "Lil Earthquake"
+          </p>
+
+          <p id="artistPage__photoAndBio--artistPrice">
+            $2,500.00
+          </p>
+
+          <p id="artistPage__photoAndBio--toBook" style="text-align: justify;">
+            Too Book a Feature with Lil Earthquake,
+            Simply fill out the form below and submit it.
+            A member of our team will be in touch with You
+            within 48 hours.
+          </p>
+
+          <form id="artistPage__form" action="https://formspree.io/f/mwkzyeya" method="post">
+
+            <label for="firstname">
+              First Name
+            </label>
+            <input type="text" name="firstname" id="artistPage__form--firstName" class="artistPage__form--input" required autofocus>
+
+            <label for="lasttname">
+              Last Name
+            </label>
+            <input type="text" name="lastname" id="artistPage__form--lastName" class="artistPage__form--input"  required>
+            
+            <label for="stagename">
+              Stage Name
+            </label>
+            <input type="text" name="stagename" id="artistPage__form--stageName" class="artistPage__form--input" >
+           
+            <label for="email">
+              Email
+            </label>
+            <input type="email" name="email" id="artistPage__form--email" class="artistPage__form--input"  required>
+            
+            <label for="phonenumber">
+              Phone Number
+            </label>
+            <input type="text" name="phonenumber" id="artistPage__form--phoneNumber" class="artistPage__form--input"  required>
+
+            <label for="description">
+              Description Of Project
+            </label>
+            <input type="text" name="description" id="artistPage__form--description" class="artistPage__form--input"  class="artistPage__form--input"  required>
+           
+            <label for="upload">
+              Upload Project (MP3 or Wav)
+            </label>
+            <input type="file" name="upload" id="artistPage__form--file" accept="mp3, wav" required>
+
+            <input type="submit" name="submit" id="artistPage__form--submit">
+
+
+            
+          </form>
+
+        </div>
+
+   
+
+       
+
+        </div>
+
+      </div>
+
+
+
+
+  </body>

@@ -1,0 +1,365 @@
+ /*------------------------------GENERAL--------------------------------------*/
+
+ html{
+  font-family: roboto, arial;
+}
+
+body{
+  margin-top: 0;
+  margin-left:0;
+  margin-right: 0;
+  background-color: rgb(233, 233, 233);
+  min-width: 1500px;
+}
+
+a{
+  color: white;
+  font-weight: bold;
+}
+
+ /*-------------------------------HEADER--------------------------------------*/
+
+ #header{
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  width: 100vw;
+  position: fixed;
+  justify-content: space-between;
+  z-index: 100;
+  min-width: 100vw;
+}
+
+#header__logo{
+ height: 100px;
+ display: flex; 
+ align-items: center;
+ margin-left: 45px;
+}
+
+#header__logo--featrmelogo{
+  height: 40px; 
+  vertical-align: middle; 
+}
+
+#header__links{
+  display: flex;
+  flex-direction: row;
+  align-items: bottom;
+  margin-right: 375px;
+  min-width: 800px;
+  
+}
+
+.header__links--item{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header__links--item:hover{
+  opacity: 50%;
+}
+
+
+#header__home{
+margin-left: 200px; 
+}
+
+/*------------------------------WELCOME--------------------------------------*/
+
+#welcomeSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(/images/backgrounds/indexBackground.png);
+  background-size: cover;
+  height: 1000px;
+  margin-bottom: 0px;
+  
+}
+
+#welcomeSection__logo{
+  display: flex;
+  justify-content: center;
+}
+
+#welcomeSection__logo--featrmelogo{
+  height: 200px;
+}
+
+#welcomeSection__text{
+  display: flex;
+  justify-content: center;
+}
+
+#welcomeSection__text--h1{
+  color: white;
+  font-family: roboto, arial;
+}
+
+/*---------------------------------ABOUT--------------------------------------*/
+
+#aboutSection{
+  display: flex;
+  height: 1000px;
+  background-color: rgb(41, 41, 41);
+  justify-content: center;
+  
+}
+
+#aboutSection__image{
+  display: flex;
+  align-items: center;
+}
+
+#aboutSection__image--featrmelogo{
+height: 200px;
+}
+
+#aboutSection__about{
+  display: flex;
+  height: 1000px;
+  background-color: rgb(41, 41, 41);
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+}
+#aboutSection__about--title{
+  display: flex;
+  width: 500px;
+  color: white;
+  font-weight: 500;
+  
+}
+
+#aboutSection__about--paragraph{
+  display: flex;
+  width: 500px;
+  color: white;
+  font-weight: 500; 
+  text-align: justify;
+}
+
+/*------------------------------TALENT--------------------------------------*/
+
+#talentSection{
+  height: 1000px;
+  background-color: rgb(28, 28, 28);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+
+
+
+#talentSection__logo{
+  display: flex;
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  top: 30px;
+  left: 550px;
+  padding-top: 90px;
+  
+  
+}
+
+#talentSection__paragraph--bookAFeature{
+  padding-top: 50px;
+  padding-bottom:25px;
+  margin-top: 50px;
+  padding-top:300px;
+  padding-bottom: 50px;
+  color: white;
+  font-size: 22px;
+  text-align: center;  
+}
+
+#talentSection__profiles{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+/*----Artists----*/
+
+.talentSection__artist--Section{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+
+
+.talentSection__artist--imageDiv{
+  display: flex;
+}
+
+.talentSection__artist--image{
+  height: 200px;
+  width: 200px;
+  
+}
+
+ .talentSection__artist--bookNow{
+  background-color: lightslategrey;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  bottom: 70px;
+  opacity: 0;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in;
+  transition-duration: .1s;
+  cursor: pointer;
+  
+  
+}
+
+.talentSection__artist--bookNow:hover{
+  opacity: .6;
+  cursor: pointer;
+}
+
+
+.talentSection__artist--descriptionDiv{
+  display: flex;
+  width: 150px;
+}
+
+.talentSection__artist--description{
+  color: white;
+}
+
+#talentSection__artistOne{
+  margin-left: 90px;
+}
+
+
+#talentSection__artistFour{
+  margin-right: 90px;
+}
+
+#talentSection__artistFive{
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+
+/*----------------------------------BOOK--------------------------------------*/
+
+
+
+
+#bookSection{
+  height: 1000px;
+  background-image: url(/images/backgrounds/indexBackground2.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#bookSection__heading{
+  display: flex;
+color: white;
+font-weight: 500;
+justify-content: center;
+font-size: 70px;
+padding-top: 300px;
+}
+
+#bookSection__contents{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  margin-left: 0px;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  }
+
+
+
+
+
+  #bookSection__contents--book{
+    text-align: left;
+  }
+
+  #bookSection__contents--buttonDiv{
+    display: flex;
+    justify-content: center;
+  }
+
+  #bookSection__contents--button{
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+  }
+
+  #bookSection__contents--button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+/*----------------------------------CONTACT-----------------------------------*/  
+
+#contactSection{
+  height: 1000px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly
+}
+
+#contactSection__imageAndHeader{
+  display: flex;
+  flex-direction: column;
+  padding-top: 380px;
+  align-items: center;
+}
+
+#contactSection__imageAndHeader--imageDiv{
+  display: flex;
+}
+
+#contactSection__imageAndHeader--image{
+  height: 100px;
+}
+
+#contactSection__imageAndHeader--header{
+  display: flex;
+  color: white;
+  text-align: center;
+}
+
+#contactSection__contents{
+  display: flex;
+  flex-direction: column;
+  padding-top: 270px;
+  margin-right: 50px;
+}
+
+#contactSection__contents, p{
+  color: white;
+}
+
+
+
+
+
+
